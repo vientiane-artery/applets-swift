@@ -1,13 +1,13 @@
 //
-//  applets_swiftlsUITests.swift
-//  applets-swiftlsUITests
+//  applets_swiftUITests.swift
+//  applets-swiftUITests
 //
 //  Created by Mars Scala on 2020/11/9.
 //
 
 import XCTest
 
-class applets_swiftlsUITests: XCTestCase {
+class applets_swiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,10 @@
 		9A300BBC2558E0A900E9EE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A300BBA2558E0A900E9EE07 /* Main.storyboard */; };
 		9A300BBE2558E0AB00E9EE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A300BBD2558E0AB00E9EE07 /* Assets.xcassets */; };
 		9A300BC12558E0AB00E9EE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A300BBF2558E0AB00E9EE07 /* LaunchScreen.storyboard */; };
-		9A300BCC2558E0AB00E9EE07 /* applets_swiftlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BCB2558E0AB00E9EE07 /* applets_swiftlsTests.swift */; };
-		9A300BD72558E0AB00E9EE07 /* applets_swiftlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BD62558E0AB00E9EE07 /* applets_swiftlsUITests.swift */; };
+		9A300BCC2558E0AB00E9EE07 /* applets_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BCB2558E0AB00E9EE07 /* applets_swiftTests.swift */; };
+		9A300BD72558E0AB00E9EE07 /* applets_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BD62558E0AB00E9EE07 /* applets_swiftUITests.swift */; };
+		9A300C0D2558EC4E00E9EE07 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 9A300C0C2558EC4E00E9EE07 /* Swifter */; };
+		9A300C132558EC8B00E9EE07 /* Applets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300C122558EC8B00E9EE07 /* Applets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A300BB12558E0A900E9EE07 /* applets-swiftls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "applets-swiftls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300BB12558E0A900E9EE07 /* applets-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "applets-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A300BB42558E0A900E9EE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A300BB62558E0A900E9EE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A300BB82558E0A900E9EE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +45,13 @@
 		9A300BBD2558E0AB00E9EE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A300BC02558E0AB00E9EE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A300BC22558E0AB00E9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A300BC72558E0AB00E9EE07 /* applets-swiftlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "applets-swiftlsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A300BCB2558E0AB00E9EE07 /* applets_swiftlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applets_swiftlsTests.swift; sourceTree = "<group>"; };
+		9A300BC72558E0AB00E9EE07 /* applets-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "applets-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300BCB2558E0AB00E9EE07 /* applets_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applets_swiftTests.swift; sourceTree = "<group>"; };
 		9A300BCD2558E0AB00E9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A300BD22558E0AB00E9EE07 /* applets-swiftlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "applets-swiftlsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A300BD62558E0AB00E9EE07 /* applets_swiftlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applets_swiftlsUITests.swift; sourceTree = "<group>"; };
+		9A300BD22558E0AB00E9EE07 /* applets-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "applets-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300BD62558E0AB00E9EE07 /* applets_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applets_swiftUITests.swift; sourceTree = "<group>"; };
 		9A300BD82558E0AB00E9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A300C122558EC8B00E9EE07 /* Applets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A300C0D2558EC4E00E9EE07 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +83,9 @@
 		9A300BA82558E0A800E9EE07 = {
 			isa = PBXGroup;
 			children = (
-				9A300BB32558E0A900E9EE07 /* applets-swiftls */,
-				9A300BCA2558E0AB00E9EE07 /* applets-swiftlsTests */,
-				9A300BD52558E0AB00E9EE07 /* applets-swiftlsUITests */,
+				9A300BB32558E0A900E9EE07 /* applets-swift */,
+				9A300BCA2558E0AB00E9EE07 /* applets-swiftTests */,
+				9A300BD52558E0AB00E9EE07 /* applets-swiftUITests */,
 				9A300BB22558E0A900E9EE07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,16 +93,17 @@
 		9A300BB22558E0A900E9EE07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A300BB12558E0A900E9EE07 /* applets-swiftls.app */,
-				9A300BC72558E0AB00E9EE07 /* applets-swiftlsTests.xctest */,
-				9A300BD22558E0AB00E9EE07 /* applets-swiftlsUITests.xctest */,
+				9A300BB12558E0A900E9EE07 /* applets-swift.app */,
+				9A300BC72558E0AB00E9EE07 /* applets-swiftTests.xctest */,
+				9A300BD22558E0AB00E9EE07 /* applets-swiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A300BB32558E0A900E9EE07 /* applets-swiftls */ = {
+		9A300BB32558E0A900E9EE07 /* applets-swift */ = {
 			isa = PBXGroup;
 			children = (
+				9A300C112558EC7A00E9EE07 /* applets */,
 				9A300BB42558E0A900E9EE07 /* AppDelegate.swift */,
 				9A300BB62558E0A900E9EE07 /* SceneDelegate.swift */,
 				9A300BB82558E0A900E9EE07 /* ViewController.swift */,
@@ -107,33 +112,41 @@
 				9A300BBF2558E0AB00E9EE07 /* LaunchScreen.storyboard */,
 				9A300BC22558E0AB00E9EE07 /* Info.plist */,
 			);
-			path = "applets-swiftls";
+			path = "applets-swift";
 			sourceTree = "<group>";
 		};
-		9A300BCA2558E0AB00E9EE07 /* applets-swiftlsTests */ = {
+		9A300BCA2558E0AB00E9EE07 /* applets-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A300BCB2558E0AB00E9EE07 /* applets_swiftlsTests.swift */,
+				9A300BCB2558E0AB00E9EE07 /* applets_swiftTests.swift */,
 				9A300BCD2558E0AB00E9EE07 /* Info.plist */,
 			);
-			path = "applets-swiftlsTests";
+			path = "applets-swiftTests";
 			sourceTree = "<group>";
 		};
-		9A300BD52558E0AB00E9EE07 /* applets-swiftlsUITests */ = {
+		9A300BD52558E0AB00E9EE07 /* applets-swiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9A300BD62558E0AB00E9EE07 /* applets_swiftlsUITests.swift */,
+				9A300BD62558E0AB00E9EE07 /* applets_swiftUITests.swift */,
 				9A300BD82558E0AB00E9EE07 /* Info.plist */,
 			);
-			path = "applets-swiftlsUITests";
+			path = "applets-swiftUITests";
+			sourceTree = "<group>";
+		};
+		9A300C112558EC7A00E9EE07 /* applets */ = {
+			isa = PBXGroup;
+			children = (
+				9A300C122558EC8B00E9EE07 /* Applets.swift */,
+			);
+			path = applets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A300BB02558E0A900E9EE07 /* applets-swiftls */ = {
+		9A300BB02558E0A900E9EE07 /* applets-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftls" */;
+			buildConfigurationList = 9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swift" */;
 			buildPhases = (
 				9A300BAD2558E0A900E9EE07 /* Sources */,
 				9A300BAE2558E0A900E9EE07 /* Frameworks */,
@@ -143,14 +156,17 @@
 			);
 			dependencies = (
 			);
-			name = "applets-swiftls";
+			name = "applets-swift";
+			packageProductDependencies = (
+				9A300C0C2558EC4E00E9EE07 /* Swifter */,
+			);
 			productName = "applets-swiftls";
-			productReference = 9A300BB12558E0A900E9EE07 /* applets-swiftls.app */;
+			productReference = 9A300BB12558E0A900E9EE07 /* applets-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A300BC62558E0AB00E9EE07 /* applets-swiftlsTests */ = {
+		9A300BC62558E0AB00E9EE07 /* applets-swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftlsTests" */;
+			buildConfigurationList = 9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftTests" */;
 			buildPhases = (
 				9A300BC32558E0AB00E9EE07 /* Sources */,
 				9A300BC42558E0AB00E9EE07 /* Frameworks */,
@@ -161,14 +177,14 @@
 			dependencies = (
 				9A300BC92558E0AB00E9EE07 /* PBXTargetDependency */,
 			);
-			name = "applets-swiftlsTests";
+			name = "applets-swiftTests";
 			productName = "applets-swiftlsTests";
-			productReference = 9A300BC72558E0AB00E9EE07 /* applets-swiftlsTests.xctest */;
+			productReference = 9A300BC72558E0AB00E9EE07 /* applets-swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A300BD12558E0AB00E9EE07 /* applets-swiftlsUITests */ = {
+		9A300BD12558E0AB00E9EE07 /* applets-swiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftlsUITests" */;
+			buildConfigurationList = 9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftUITests" */;
 			buildPhases = (
 				9A300BCE2558E0AB00E9EE07 /* Sources */,
 				9A300BCF2558E0AB00E9EE07 /* Frameworks */,
@@ -179,9 +195,9 @@
 			dependencies = (
 				9A300BD42558E0AB00E9EE07 /* PBXTargetDependency */,
 			);
-			name = "applets-swiftlsUITests";
+			name = "applets-swiftUITests";
 			productName = "applets-swiftlsUITests";
-			productReference = 9A300BD22558E0AB00E9EE07 /* applets-swiftlsUITests.xctest */;
+			productReference = 9A300BD22558E0AB00E9EE07 /* applets-swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "applets-swiftls" */;
+			buildConfigurationList = 9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "applets-swift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,13 +231,16 @@
 				Base,
 			);
 			mainGroup = 9A300BA82558E0A800E9EE07;
+			packageReferences = (
+				9A300C0B2558EC4E00E9EE07 /* XCRemoteSwiftPackageReference "swifter" */,
+			);
 			productRefGroup = 9A300BB22558E0A900E9EE07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A300BB02558E0A900E9EE07 /* applets-swiftls */,
-				9A300BC62558E0AB00E9EE07 /* applets-swiftlsTests */,
-				9A300BD12558E0AB00E9EE07 /* applets-swiftlsUITests */,
+				9A300BB02558E0A900E9EE07 /* applets-swift */,
+				9A300BC62558E0AB00E9EE07 /* applets-swiftTests */,
+				9A300BD12558E0AB00E9EE07 /* applets-swiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A300BB92558E0A900E9EE07 /* ViewController.swift in Sources */,
+				9A300C132558EC8B00E9EE07 /* Applets.swift in Sources */,
 				9A300BB52558E0A900E9EE07 /* AppDelegate.swift in Sources */,
 				9A300BB72558E0A900E9EE07 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A300BCC2558E0AB00E9EE07 /* applets_swiftlsTests.swift in Sources */,
+				9A300BCC2558E0AB00E9EE07 /* applets_swiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A300BD72558E0AB00E9EE07 /* applets_swiftlsUITests.swift in Sources */,
+				9A300BD72558E0AB00E9EE07 /* applets_swiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		9A300BC92558E0AB00E9EE07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A300BB02558E0A900E9EE07 /* applets-swiftls */;
+			target = 9A300BB02558E0A900E9EE07 /* applets-swift */;
 			targetProxy = 9A300BC82558E0AB00E9EE07 /* PBXContainerItemProxy */;
 		};
 		9A300BD42558E0AB00E9EE07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A300BB02558E0A900E9EE07 /* applets-swiftls */;
+			target = 9A300BB02558E0A900E9EE07 /* applets-swift */;
 			targetProxy = 9A300BD32558E0AB00E9EE07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,12 +457,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftls/Info.plist";
+				INFOPLIST_FILE = "applets-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftls";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +475,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftls/Info.plist";
+				INFOPLIST_FILE = "applets-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftls";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,18 +493,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftlsTests/Info.plist";
+				INFOPLIST_FILE = "applets-swiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftlsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/applets-swiftls.app/applets-swiftls";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/applets-swift.app/applets-swift";
 			};
 			name = Debug;
 		};
@@ -494,18 +514,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftlsTests/Info.plist";
+				INFOPLIST_FILE = "applets-swiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftlsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/applets-swiftls.app/applets-swiftls";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/applets-swift.app/applets-swift";
 			};
 			name = Release;
 		};
@@ -514,17 +534,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftlsUITests/Info.plist";
+				INFOPLIST_FILE = "applets-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftlsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.apple-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "applets-swiftls";
+				TEST_TARGET_NAME = "applets-swift";
 			};
 			name = Debug;
 		};
@@ -533,24 +553,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftlsUITests/Info.plist";
+				INFOPLIST_FILE = "applets-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftlsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.apple-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "applets-swiftls";
+				TEST_TARGET_NAME = "applets-swift";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "applets-swiftls" */ = {
+		9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "applets-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BD92558E0AB00E9EE07 /* Debug */,
@@ -559,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftls" */ = {
+		9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BDC2558E0AB00E9EE07 /* Debug */,
@@ -568,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftlsTests" */ = {
+		9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BDF2558E0AB00E9EE07 /* Debug */,
@@ -577,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftlsUITests" */ = {
+		9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BE22558E0AB00E9EE07 /* Debug */,
@@ -587,6 +607,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A300C0B2558EC4E00E9EE07 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A300C0C2558EC4E00E9EE07 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A300C0B2558EC4E00E9EE07 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A300BA92558E0A800E9EE07 /* Project object */;
 }
