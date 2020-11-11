@@ -1,6 +1,6 @@
 //
 //  Applets.swift
-//  applets-swift
+//  applets
 //
 //  Created by Mars Scala on 2020/11/9.
 //
@@ -9,40 +9,38 @@ import Foundation
 import Swifter
 
 protocol AppletEntry {
-    var path :String { get }
+    var path: String { get }
 }
 
 protocol Applet {
-    var appID       :String { get }
-    var appName     :String { get }
-    var publishAt   :Int64 { get }
-    var createAt    :Int64 { get }
-    var entries :[AppletEntry] { get }
+    var appID: String { get }
+    var appName: String { get }
+    var publishAt: Int64 { get }
+    var createAt: Int64 { get }
+    var entries: [AppletEntry] { get }
 }
 
 protocol AppletsConfig {
-    var port        :in_port_t { get }
-//    var basePath    :String { get }
+    var port: in_port_t { get }
 }
 
 class Applets {
-    struct DefaultConfig : AppletsConfig {
+    struct DefaultConfig: AppletsConfig {
         var port: in_port_t = 8080
-//        var basePath: String = Bundle.main.path(forResource: "/", ofType: nil)!
     }
-    
+
     let server: HttpServer
     let config: AppletsConfig
     init(config: AppletsConfig = DefaultConfig()) {
         self.config = config
         server = HttpServer()
     }
-    
+
     func loadModule(applet: Applet) -> Loader {
         let package = Package(applets: self, applet: applet)
         return Loader(package: package)
     }
-    
+
     func start() {
         let server = HttpServer()
         server["/"] = scopes {
@@ -78,11 +76,11 @@ extension Applets {
             self.applets = applets
             self.applet = applet
         }
-        
+
         func url(entry: AppletEntry) -> String {
             return path(entry: entry)
         }
-        
+
         func path(entry: AppletEntry) -> String {
             return "https://apple.com"
         }
@@ -97,13 +95,12 @@ extension Applets {
             self.package = package
             loading = false
         }
-        
+
         func url(entry: AppletEntry) -> String {
             return package.url(entry: entry)
         }
-        
-        func registerLoadingMonitor(loadingStatus: (Bool)->Void) {
-            //
+
+        func registerLoadingMonitor(loadingStatus: (Bool) -> Void) {
         }
     }
 }

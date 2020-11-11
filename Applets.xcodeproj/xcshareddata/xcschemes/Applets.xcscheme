@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A300BB02558E0A900E9EE07"
-               BuildableName = "applets-swift.app"
-               BlueprintName = "applets-swift"
-               ReferencedContainer = "container:applets-swift.xcodeproj">
+               BuildableName = "Applets.app"
+               BlueprintName = "Applets"
+               ReferencedContainer = "container:Applets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A300BC62558E0AB00E9EE07"
-               BuildableName = "applets-swiftTests.xctest"
-               BlueprintName = "applets-swiftTests"
-               ReferencedContainer = "container:applets-swift.xcodeproj">
+               BuildableName = "AppletsTests.xctest"
+               BlueprintName = "AppletsTests"
+               ReferencedContainer = "container:Applets.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A300BD12558E0AB00E9EE07"
-               BuildableName = "applets-swiftUITests.xctest"
-               BlueprintName = "applets-swiftUITests"
-               ReferencedContainer = "container:applets-swift.xcodeproj">
+               BuildableName = "AppletsUITests.xctest"
+               BlueprintName = "AppletsUITests"
+               ReferencedContainer = "container:Applets.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A300BB02558E0A900E9EE07"
-            BuildableName = "applets-swift.app"
-            BlueprintName = "applets-swift"
-            ReferencedContainer = "container:applets-swift.xcodeproj">
+            BuildableName = "Applets.app"
+            BlueprintName = "Applets"
+            ReferencedContainer = "container:Applets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A300BB02558E0A900E9EE07"
-            BuildableName = "applets-swift.app"
-            BlueprintName = "applets-swift"
-            ReferencedContainer = "container:applets-swift.xcodeproj">
+            BuildableName = "Applets.app"
+            BlueprintName = "Applets"
+            ReferencedContainer = "container:Applets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,6 +1,6 @@
 //
 //  Widget.swift
-//  applets-swift
+//  applets
 //
 //  Created by Mars Scala on 2020/11/10.
 //

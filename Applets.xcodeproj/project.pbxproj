@@ -13,9 +13,9 @@
 		9A300BBC2558E0A900E9EE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A300BBA2558E0A900E9EE07 /* Main.storyboard */; };
 		9A300BBE2558E0AB00E9EE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A300BBD2558E0AB00E9EE07 /* Assets.xcassets */; };
 		9A300BC12558E0AB00E9EE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A300BBF2558E0AB00E9EE07 /* LaunchScreen.storyboard */; };
-		9A300BCC2558E0AB00E9EE07 /* applets_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BCB2558E0AB00E9EE07 /* applets_swiftTests.swift */; };
-		9A300BD72558E0AB00E9EE07 /* applets_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BD62558E0AB00E9EE07 /* applets_swiftUITests.swift */; };
-		9A300C0D2558EC4E00E9EE07 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 9A300C0C2558EC4E00E9EE07 /* Swifter */; };
+		9A300BCC2558E0AB00E9EE07 /* AppletsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BCB2558E0AB00E9EE07 /* AppletsTests.swift */; };
+		9A300BD72558E0AB00E9EE07 /* AppletsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300BD62558E0AB00E9EE07 /* AppletsUITests.swift */; };
+		9A300C0D2558EC4E00E9EE07 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9A300C0C2558EC4E00E9EE07 /* SwiftPackageProductDependency */; };
 		9A300C132558EC8B00E9EE07 /* Applets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A300C122558EC8B00E9EE07 /* Applets.swift */; };
 		9A300C8F255907D200E9EE07 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 9A300C8E255907D200E9EE07 /* web */; };
 		9A300C94255907DE00E9EE07 /* web.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9A300C93255907DE00E9EE07 /* web.zip */; };
@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A300BB12558E0A900E9EE07 /* applets-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "applets-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300BB12558E0A900E9EE07 /* Applets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Applets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A300BB42558E0A900E9EE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A300BB62558E0A900E9EE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A300BB82558E0A900E9EE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,11 +51,11 @@
 		9A300BBD2558E0AB00E9EE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A300BC02558E0AB00E9EE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A300BC22558E0AB00E9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A300BC72558E0AB00E9EE07 /* applets-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "applets-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A300BCB2558E0AB00E9EE07 /* applets_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applets_swiftTests.swift; sourceTree = "<group>"; };
+		9A300BC72558E0AB00E9EE07 /* AppletsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppletsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300BCB2558E0AB00E9EE07 /* AppletsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppletsTests.swift; sourceTree = "<group>"; };
 		9A300BCD2558E0AB00E9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A300BD22558E0AB00E9EE07 /* applets-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "applets-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A300BD62558E0AB00E9EE07 /* applets_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applets_swiftUITests.swift; sourceTree = "<group>"; };
+		9A300BD22558E0AB00E9EE07 /* AppletsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppletsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A300BD62558E0AB00E9EE07 /* AppletsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppletsUITests.swift; sourceTree = "<group>"; };
 		9A300BD82558E0AB00E9EE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A300C122558EC8B00E9EE07 /* Applets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applets.swift; sourceTree = "<group>"; };
 		9A300C8E255907D200E9EE07 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A300C0D2558EC4E00E9EE07 /* Swifter in Frameworks */,
+				9A300C0D2558EC4E00E9EE07 /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,73 +96,73 @@
 		9A300BA82558E0A800E9EE07 = {
 			isa = PBXGroup;
 			children = (
-				9A31FA88255A439300C2C0E2 /* README.md */,
-				9A300BB32558E0A900E9EE07 /* applets-swift */,
-				9A300BCA2558E0AB00E9EE07 /* applets-swiftTests */,
-				9A300BD52558E0AB00E9EE07 /* applets-swiftUITests */,
+				9A300BB32558E0A900E9EE07 /* Applets */,
+				9A300BCA2558E0AB00E9EE07 /* AppletsTests */,
+				9A300BD52558E0AB00E9EE07 /* AppletsUITests */,
 				9A300BB22558E0A900E9EE07 /* Products */,
+				9A31FA88255A439300C2C0E2 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
 		9A300BB22558E0A900E9EE07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A300BB12558E0A900E9EE07 /* applets-swift.app */,
-				9A300BC72558E0AB00E9EE07 /* applets-swiftTests.xctest */,
-				9A300BD22558E0AB00E9EE07 /* applets-swiftUITests.xctest */,
+				9A300BB12558E0A900E9EE07 /* Applets.app */,
+				9A300BC72558E0AB00E9EE07 /* AppletsTests.xctest */,
+				9A300BD22558E0AB00E9EE07 /* AppletsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A300BB32558E0A900E9EE07 /* applets-swift */ = {
+		9A300BB32558E0A900E9EE07 /* Applets */ = {
 			isa = PBXGroup;
 			children = (
-				9A300C8D255907C300E9EE07 /* resources */,
-				9A300C112558EC7A00E9EE07 /* applets */,
 				9A300BB42558E0A900E9EE07 /* AppDelegate.swift */,
+				9A300C112558EC7A00E9EE07 /* Applets */,
+				9A300BBD2558E0AB00E9EE07 /* Assets.xcassets */,
+				9A300BC22558E0AB00E9EE07 /* Info.plist */,
+				9A300BBF2558E0AB00E9EE07 /* LaunchScreen.storyboard */,
+				9A300BBA2558E0A900E9EE07 /* Main.storyboard */,
+				9A300C8D255907C300E9EE07 /* resources */,
 				9A300BB62558E0A900E9EE07 /* SceneDelegate.swift */,
 				9A300BB82558E0A900E9EE07 /* ViewController.swift */,
-				9A300BBA2558E0A900E9EE07 /* Main.storyboard */,
-				9A300BBD2558E0AB00E9EE07 /* Assets.xcassets */,
-				9A300BBF2558E0AB00E9EE07 /* LaunchScreen.storyboard */,
-				9A300BC22558E0AB00E9EE07 /* Info.plist */,
 			);
-			path = "applets-swift";
+			path = Applets;
 			sourceTree = "<group>";
 		};
-		9A300BCA2558E0AB00E9EE07 /* applets-swiftTests */ = {
+		9A300BCA2558E0AB00E9EE07 /* AppletsTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A300BCB2558E0AB00E9EE07 /* applets_swiftTests.swift */,
+				9A300BCB2558E0AB00E9EE07 /* AppletsTests.swift */,
 				9A300BCD2558E0AB00E9EE07 /* Info.plist */,
 			);
-			path = "applets-swiftTests";
+			path = AppletsTests;
 			sourceTree = "<group>";
 		};
-		9A300BD52558E0AB00E9EE07 /* applets-swiftUITests */ = {
+		9A300BD52558E0AB00E9EE07 /* AppletsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9A300BD62558E0AB00E9EE07 /* applets_swiftUITests.swift */,
+				9A300BD62558E0AB00E9EE07 /* AppletsUITests.swift */,
 				9A300BD82558E0AB00E9EE07 /* Info.plist */,
 			);
-			path = "applets-swiftUITests";
+			path = AppletsUITests;
 			sourceTree = "<group>";
 		};
-		9A300C112558EC7A00E9EE07 /* applets */ = {
+		9A300C112558EC7A00E9EE07 /* Applets */ = {
 			isa = PBXGroup;
 			children = (
 				9A31FA5A255A277400C2C0E2 /* Components */,
 				9A31FA54255A274300C2C0E2 /* Core */,
 				9A31FA50255A270E00C2C0E2 /* UI */,
 			);
-			path = applets;
+			path = Applets;
 			sourceTree = "<group>";
 		};
 		9A300C8D255907C300E9EE07 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				9A300C93255907DE00E9EE07 /* web.zip */,
 				9A300C8E255907D200E9EE07 /* web */,
+				9A300C93255907DE00E9EE07 /* web.zip */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -179,9 +179,9 @@
 		9A31FA54255A274300C2C0E2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				9A31FA75255A29EF00C2C0E2 /* WidgetManager */,
 				9A31FA5C255A280200C2C0E2 /* Event */,
 				9A31FA55255A275300C2C0E2 /* Server */,
+				9A31FA75255A29EF00C2C0E2 /* WidgetManager */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -219,8 +219,8 @@
 		9A31FA75255A29EF00C2C0E2 /* WidgetManager */ = {
 			isa = PBXGroup;
 			children = (
-				9A31FA76255A2A0800C2C0E2 /* Widget.swift */,
 				9A31FA7E255A2A2A00C2C0E2 /* WdigetManager.swift */,
+				9A31FA76255A2A0800C2C0E2 /* Widget.swift */,
 			);
 			path = WidgetManager;
 			sourceTree = "<group>";
@@ -228,29 +228,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A300BB02558E0A900E9EE07 /* applets-swift */ = {
+		9A300BB02558E0A900E9EE07 /* Applets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swift" */;
+			buildConfigurationList = 9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "Applets" */;
 			buildPhases = (
 				9A300BAD2558E0A900E9EE07 /* Sources */,
 				9A300BAE2558E0A900E9EE07 /* Frameworks */,
 				9A300BAF2558E0A900E9EE07 /* Resources */,
+				9A31FAD7255A754100C2C0E2 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "applets-swift";
+			name = Applets;
 			packageProductDependencies = (
-				9A300C0C2558EC4E00E9EE07 /* Swifter */,
+				9A300C0C2558EC4E00E9EE07 /* SwiftPackageProductDependency */,
 			);
 			productName = "applets-swiftls";
-			productReference = 9A300BB12558E0A900E9EE07 /* applets-swift.app */;
+			productReference = 9A300BB12558E0A900E9EE07 /* Applets.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A300BC62558E0AB00E9EE07 /* applets-swiftTests */ = {
+		9A300BC62558E0AB00E9EE07 /* AppletsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftTests" */;
+			buildConfigurationList = 9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "AppletsTests" */;
 			buildPhases = (
 				9A300BC32558E0AB00E9EE07 /* Sources */,
 				9A300BC42558E0AB00E9EE07 /* Frameworks */,
@@ -261,14 +262,14 @@
 			dependencies = (
 				9A300BC92558E0AB00E9EE07 /* PBXTargetDependency */,
 			);
-			name = "applets-swiftTests";
+			name = AppletsTests;
 			productName = "applets-swiftlsTests";
-			productReference = 9A300BC72558E0AB00E9EE07 /* applets-swiftTests.xctest */;
+			productReference = 9A300BC72558E0AB00E9EE07 /* AppletsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A300BD12558E0AB00E9EE07 /* applets-swiftUITests */ = {
+		9A300BD12558E0AB00E9EE07 /* AppletsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftUITests" */;
+			buildConfigurationList = 9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "AppletsUITests" */;
 			buildPhases = (
 				9A300BCE2558E0AB00E9EE07 /* Sources */,
 				9A300BCF2558E0AB00E9EE07 /* Frameworks */,
@@ -279,9 +280,9 @@
 			dependencies = (
 				9A300BD42558E0AB00E9EE07 /* PBXTargetDependency */,
 			);
-			name = "applets-swiftUITests";
+			name = AppletsUITests;
 			productName = "applets-swiftlsUITests";
-			productReference = 9A300BD22558E0AB00E9EE07 /* applets-swiftUITests.xctest */;
+			productReference = 9A300BD22558E0AB00E9EE07 /* AppletsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "applets-swift" */;
+			buildConfigurationList = 9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "Applets" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,15 +317,15 @@
 			);
 			mainGroup = 9A300BA82558E0A800E9EE07;
 			packageReferences = (
-				9A300C0B2558EC4E00E9EE07 /* XCRemoteSwiftPackageReference "swifter" */,
+				9A300C0B2558EC4E00E9EE07 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 9A300BB22558E0A900E9EE07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A300BB02558E0A900E9EE07 /* applets-swift */,
-				9A300BC62558E0AB00E9EE07 /* applets-swiftTests */,
-				9A300BD12558E0AB00E9EE07 /* applets-swiftUITests */,
+				9A300BB02558E0A900E9EE07 /* Applets */,
+				9A300BC62558E0AB00E9EE07 /* AppletsTests */,
+				9A300BD12558E0AB00E9EE07 /* AppletsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -334,11 +335,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A300BC12558E0AB00E9EE07 /* LaunchScreen.storyboard in Resources */,
-				9A300C94255907DE00E9EE07 /* web.zip in Resources */,
-				9A300C8F255907D200E9EE07 /* web in Resources */,
 				9A300BBE2558E0AB00E9EE07 /* Assets.xcassets in Resources */,
+				9A300BC12558E0AB00E9EE07 /* LaunchScreen.storyboard in Resources */,
 				9A300BBC2558E0A900E9EE07 /* Main.storyboard in Resources */,
+				9A300C8F255907D200E9EE07 /* web in Resources */,
+				9A300C94255907DE00E9EE07 /* web.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,18 +359,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A31FAD7255A754100C2C0E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A300BAD2558E0A900E9EE07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A31FA7F255A2A2A00C2C0E2 /* WdigetManager.swift in Sources */,
-				9A31FA84255A2B9A00C2C0E2 /* AppletModuleWebView.swift in Sources */,
-				9A300BB92558E0A900E9EE07 /* ViewController.swift in Sources */,
-				9A31FA69255A285900C2C0E2 /* AppletModuleViewController.swift in Sources */,
-				9A300C132558EC8B00E9EE07 /* Applets.swift in Sources */,
 				9A300BB52558E0A900E9EE07 /* AppDelegate.swift in Sources */,
+				9A31FA69255A285900C2C0E2 /* AppletModuleViewController.swift in Sources */,
+				9A31FA84255A2B9A00C2C0E2 /* AppletModuleWebView.swift in Sources */,
+				9A300C132558EC8B00E9EE07 /* Applets.swift in Sources */,
 				9A300BB72558E0A900E9EE07 /* SceneDelegate.swift in Sources */,
+				9A300BB92558E0A900E9EE07 /* ViewController.swift in Sources */,
+				9A31FA7F255A2A2A00C2C0E2 /* WdigetManager.swift in Sources */,
 				9A31FA77255A2A0800C2C0E2 /* Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A300BCC2558E0AB00E9EE07 /* applets_swiftTests.swift in Sources */,
+				9A300BCC2558E0AB00E9EE07 /* AppletsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A300BD72558E0AB00E9EE07 /* applets_swiftUITests.swift in Sources */,
+				9A300BD72558E0AB00E9EE07 /* AppletsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,12 +416,12 @@
 /* Begin PBXTargetDependency section */
 		9A300BC92558E0AB00E9EE07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A300BB02558E0A900E9EE07 /* applets-swift */;
+			target = 9A300BB02558E0A900E9EE07 /* Applets */;
 			targetProxy = 9A300BC82558E0AB00E9EE07 /* PBXContainerItemProxy */;
 		};
 		9A300BD42558E0AB00E9EE07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A300BB02558E0A900E9EE07 /* applets-swift */;
+			target = 9A300BB02558E0A900E9EE07 /* Applets */;
 			targetProxy = 9A300BD32558E0AB00E9EE07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -547,12 +568,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swift/Info.plist";
+				INFOPLIST_FILE = Applets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artery.applets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,12 +586,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swift/Info.plist";
+				INFOPLIST_FILE = Applets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artery.applets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,18 +604,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftTests/Info.plist";
+				INFOPLIST_FILE = "Applets-Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artery.AppletsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/applets-swift.app/applets-swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Applets.app/Applets";
 			};
 			name = Debug;
 		};
@@ -604,18 +625,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftTests/Info.plist";
+				INFOPLIST_FILE = "Applets-Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.applets-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artery.AppletsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/applets-swift.app/applets-swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Applets.app/Applets";
 			};
 			name = Release;
 		};
@@ -624,17 +645,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftUITests/Info.plist";
+				INFOPLIST_FILE = AppletsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.apple-swiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artery.AppleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "applets-swift";
+				TEST_TARGET_NAME = Applets;
 			};
 			name = Debug;
 		};
@@ -643,24 +664,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "applets-swiftUITests/Info.plist";
+				INFOPLIST_FILE = AppletsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artery.apple-swiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artery.AppleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "applets-swift";
+				TEST_TARGET_NAME = Applets;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "applets-swift" */ = {
+		9A300BAC2558E0A800E9EE07 /* Build configuration list for PBXProject "Applets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BD92558E0AB00E9EE07 /* Debug */,
@@ -669,7 +690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swift" */ = {
+		9A300BDB2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "Applets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BDC2558E0AB00E9EE07 /* Debug */,
@@ -678,7 +699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftTests" */ = {
+		9A300BDE2558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "AppletsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BDF2558E0AB00E9EE07 /* Debug */,
@@ -687,7 +708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "applets-swiftUITests" */ = {
+		9A300BE12558E0AB00E9EE07 /* Build configuration list for PBXNativeTarget "AppletsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A300BE22558E0AB00E9EE07 /* Debug */,
@@ -699,7 +720,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9A300C0B2558EC4E00E9EE07 /* XCRemoteSwiftPackageReference "swifter" */ = {
+		9A300C0B2558EC4E00E9EE07 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/httpswift/swifter.git";
 			requirement = {
@@ -710,9 +731,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9A300C0C2558EC4E00E9EE07 /* Swifter */ = {
+		9A300C0C2558EC4E00E9EE07 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9A300C0B2558EC4E00E9EE07 /* XCRemoteSwiftPackageReference "swifter" */;
+			package = 9A300C0B2558EC4E00E9EE07 /* RemoteSwiftPackageReference */;
 			productName = Swifter;
 		};
 /* End XCSwiftPackageProductDependency section */

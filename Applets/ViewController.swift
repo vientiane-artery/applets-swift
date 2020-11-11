@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  applets-swift
+//  applets
 //
 //  Created by Mars Scala on 2020/11/9.
 //
@@ -14,6 +14,4 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
-
